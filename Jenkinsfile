@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	environment {
-		VERSION = '1.0.2'
+		VERSION = '1.0.3'
 		DOCKERHUB_CREDENTIALS = credentials('docker-asteward-credentials')
 	}
 	stages {
